@@ -32,14 +32,16 @@ async function searchImages(){
 
         imageWrapper.appendChild(image);
         imageWrapper.appendChild(imageLink);
-
+        searchResultsEl.appendChild(imageWrapper);
 
     });
 
-    
 
+   page++;
+
+  
     if (page > 1) {
-        showMoreButtonEl.style.display = block;
+        showMoreButtonEl.style.display = "block";
     }
 
 }
