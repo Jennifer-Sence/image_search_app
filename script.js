@@ -52,3 +52,7 @@ formEl.addEventListener("submit", (event)=>{
     searchImages();
 });
 
+showMoreButtonEl.addEventListener("click", ()=>{
+    searchImages();
+})
+
